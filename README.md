@@ -1,27 +1,39 @@
-# parent-assessment
-Challenge Idea
+## About Challenge Idea
 
 User Transactions API
 This API allows you to retrieve user transactions from multiple payment providers, such as DataProviderX and DataProviderY.
 
-Endpoints
-GET /api/v1/users
-Retrieves all users and their transactions from all payment providers.
 
-Parameters
-provider (optional): Filter results by payment provider.
-Example: /api/v1/users?provider=DataProviderX
+## Project  Target
 
-- statusCode (optional): Filter results by transaction status code
-   (authorised, decline, or refunded). Example: /api/v1/users?statusCode=authorised
-  
-- balanceMin (optional): Filter results by minimum transaction amount.
-     Example: /api/v1/users?balanceMin=10
-- balanceMax (optional): Filter results by maximum transaction amount.
-   Example: /api/v1/users?balanceMax=100
-  
-- currency (optional): Filter results by transaction currency.
-   Example: /api/v1/users?currency=USD
-  
-You can combine multiple filters together to narrow down your results.
-  Example: /api/v1/users?provider=DataProviderX&statusCode=authorised&balanceMin=10&balanceMax=100&currency=USD
+- Code quality
+- Application performance in reading large files
+- Code scalability : ability to add DataProviderZ by small changes
+- Unit tests coverage
+- Docker
+
+## Project Details
+
++ Project Make Dynamic Component For New Provider 
++ JSON Machine is an efficient, easy-to-use and fast JSON stream/pull/incremental/lazy
++  Repository Pattern and Facade
++  UnitTest For Seperated Provider
++ Docker
+
+
+### Add New Component
+
+- Just add New DataProvider(?) path =>  Helper /JsonFile /DataProvider/ Classes
+- Add New File Storage For Json Data and From Class Built Call It
+- You Can Add New Filter 
+  +  ( Global - specific )
+  +  Every Class Have Filter Separated  as You Want
+
+### Add New TestCases
+- Just add new Separated Class As You want
+
+###  Docker 
++ Folder deploy + docker-compose.yml ( container_name -> parent-app)
+
+
+
