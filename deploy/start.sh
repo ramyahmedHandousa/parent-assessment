@@ -7,4 +7,13 @@ echo 'Start listening'
 # chown -R 1001:1001 storage/
 chmod -R o+w storage/logs/
 
+cp .env.example .env
+
+composer install
+
+php artisan key:generate
+
+
+
+
 

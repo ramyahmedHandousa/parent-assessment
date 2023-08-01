@@ -4,6 +4,10 @@ User Transactions API
 This API allows you to retrieve user transactions from multiple payment providers, such as DataProviderX and DataProviderY.
 
 
+## To Run Project 
+ 
+* docker-compose up --build -d && docker exec -it parent-app bash deploy/start.sh 
+
 ## Project  Target
 
 - Code quality
