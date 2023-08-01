@@ -14,7 +14,7 @@ class DataProviderY implements DataProviderInterface
     private string $name = 'DataProviderY' ;
     public function __construct()
     {
-        $this->filePath =  storage_path('app/public/JsonFile/DataProviderY.json');
+        $this->filePath =  storage_path('JsonFile/DataProviderY.json');
     }
 
     public function data()

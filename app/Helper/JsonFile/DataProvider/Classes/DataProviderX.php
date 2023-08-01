@@ -14,7 +14,7 @@ class DataProviderX implements DataProviderInterface
     private string $name = 'DataProviderX' ;
     public function __construct()
     {
-        $this->filePath =  storage_path('app/public/JsonFile/DataProviderX.json');
+        $this->filePath =  storage_path('JsonFile/DataProviderX.json');
     }
 
     public function data()

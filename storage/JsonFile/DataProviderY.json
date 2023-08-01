@@ -1,0 +1,50 @@
+[
+    {
+        "balance":150,
+        "currency":"USD",
+        "email":"parenty1@parent.eu",
+        "status":200,
+        "created_at": "01/08/2023",
+        "id": "1fc2-a8d1"
+    },
+    {
+        "balance":70,
+        "currency":"AED",
+        "email":"parenty2@parent.eu",
+        "status":100,
+        "created_at": "01/08/2023",
+        "id": "2fc2-a8d1"
+    },
+    {
+        "balance":300,
+        "currency":"USD",
+        "email":"parenty3@parent.eu",
+        "status":100,
+        "created_at": "01/08/2023",
+        "id": "3fc2-a8d1"
+    },
+    {
+        "balance":600,
+        "currency":"AED",
+        "email":"parenty4@parent.eu",
+        "status":100,
+        "created_at": "01/08/2023",
+        "id": "4fc2-a8d1"
+    },
+    {
+        "balance":300,
+        "currency":"USD",
+        "email":"parenty5@parent.eu",
+        "status":300,
+        "created_at": "01/08/2023",
+        "id": "5fc2-a8d1"
+    },
+    {
+        "balance":650,
+        "currency":"USD",
+        "email":"parenty6@parent.eu",
+        "status":300,
+        "created_at": "01/08/2023",
+        "id": "6fc2-a8d1"
+    }
+]
